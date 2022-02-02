@@ -29,19 +29,17 @@ mk_composite_image <- function(cluster, total_images) {
   }
 }
 
-# Cluster 0
-mk_composite_image(0, 10)
-mk_composite_image
-
+# Creates composite images per cluster.
+mk_composite_image(0, 3180)
+mk_composite_image(1, 704)
+mk_composite_image(2, 853)
+mk_composite_image(3, 357)
+mk_composite_image(4, 735)
 
 
 # Create smaller copies ---------------------------------------------------
 
 image_names <- list.files("img/tmp/", pattern = ".jpg")
-
-for (i in image_names) {
-  print(i)
-}
 
 for (i in image_names) {
   big_img <- image_read(paste0("img/tmp/", i))
