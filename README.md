@@ -3,7 +3,7 @@ This repo is part of the _Walkability Perception and its Relations to Scenery El
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Project contains  all the code and data aimed to analyse a survey on perceived walkability.
+Project contains  all the code and data aimed at generating composite images with images from four different orientations from within the same location.
 
 ## Who are we? 
 
@@ -31,11 +31,6 @@ This study examines ‘walkability’. Specifically, what makes an area seem mor
 
 ``` bash
 .
-├── analyses      -> rmd files containing reports, papers...
-├── data          -> data files
-│   └── data-raw  -> original, raw data
-├── man           -> documentation autogerated from comments
-├── R             -> functions used in the project
 └── renv          -> r environment, for reproducible code (ignored from repo)
 ```
 
